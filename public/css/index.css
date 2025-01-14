@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+   img{
+    height: 250px;
+    width: 220px;
+    align-content: center;
+  } 
+
+
+  /*****************************************/
+  /*********   for image  ******/
+  header {
+    /* background-color: #333; */
+    background-color: #622a2a;;
+    color: #fff;
+    
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 40px 0px 40px;
+  }
+  
+  h1 {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  img {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  /********************************************/
+  
+  /* header {
+    background-color: #333;
+    
+    color: #fff;
+    
+    padding: 20px;
+  } 
+  
+  h1 {
+    margin: 0;
+  }
+  */
+
+  #profile-title{
+    font-size: 300%;
+    color: #fa2;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: -10;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ff1;
+    text-decoration: none;
+  
+  }
+  
+  section {
+    padding: 50px 50px 50px 50px;
+        
+    margin: 5px;
+    /* background-color: #000; */
+    background-color: #2a150ba3;
+    color: white;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+
+
+  /***********************/
+
+  #resume-download a button{
+    background-color: red;  
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    
+  } 
+
+  /***********************/
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  form input[type="submit"] {
+    background-color: rgb(86, 86, 218);
+    color: #000;
+    border-color: black;
+    border-radius: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
